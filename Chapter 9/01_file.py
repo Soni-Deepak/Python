@@ -1,0 +1,5 @@
+# f = open("file.txt")  #open is function which take file name and the mode (r for read (by default) and w for erite)
+f = open("file.txt" , 'r')
+data = f.read()
+print(data)
+f.close()
